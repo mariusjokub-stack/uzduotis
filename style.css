@@ -1,0 +1,35 @@
+body{
+    color: blue;
+    
+}
+
+
+div {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+ div.a {
+    width: 30%;
+  }
+  div.b {
+    margin: 20px;
+  }
+  div.c {
+    width: 30%;
+  }
+  
+  div.juodas {
+  border: 2px solid red;
+  background-color: black;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+div.melynas {
+  border: 1px solid black;
+  padding: 20px 20px 20px 20px;
+  background-color: blue;
+}
