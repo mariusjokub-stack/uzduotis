@@ -1,0 +1,120 @@
+
+
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+  display: grid;
+  gap: 5px;
+  padding: 10px;
+  height: 678px;
+  grid-template-areas: 
+    "header header"
+    "nav    nav"
+    "main   aside"
+    "footer footer";
+
+  grid-template-rows: auto auto 1fr auto;
+}
+
+
+.header {
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end:8 ;
+     background-color:aquamarine;
+     border: 2px solid black;
+     
+}
+     
+.nav {
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end:8 ;
+    background-color: bisque;
+    border: 2px solid black;
+    
+}
+.main {
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end:6 ;
+     background-color:cadetblue;
+     border: 2px solid black;
+     
+}
+.aside {
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 6;
+    grid-column-end:8 ;
+     background-color:aquamarine;
+     border: 2px solid black;
+     
+}
+
+.footer {
+
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end:8 ;
+     background-color:blanchedalmond;
+     border: 2px solid black;
+     
+}
+
+.container > div {
+   font-size: 20px;
+    text-align:center; 
+
+  border-radius: 10px;
+   
+  padding: 15px;
+  color: #d9480f;
+}
+
+button{
+width: 120px;
+height: 40px;
+
+}
+
+.apsoliutus {
+    position: absolute;
+  bottom: 450px;
+  left:50px;
+  background: #e74c3c;
+  color: white;
+
+}
+.fiksuotas {
+    position: fixed;
+
+    top: 0px;
+   right: 678px
+
+   
+}
+
+
+.relatyvus {
+  position: relative;
+  bottom: 550px;
+  right: -1350px;
+  border: 1px solid black;
+  
+  background: white;
+}
+
+
+
