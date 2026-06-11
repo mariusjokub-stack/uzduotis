@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Pokemon Trainer</title>
+
+    <link rel="stylesheet" href="Poke.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>Pokemon Trainer</h1>
+
+    </header>
+
+
+
+    <!-- NAV -->
+
+    <nav>
+
+        <!-- SEARCH -->
+
+        <div class="search-box">
+
+            <input
+                id="searchInput"
+                placeholder="Search Pokemon"
+            >
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+        <!-- FILTER -->
+
+        <div class="filter-box">
+
+            <button id="showFireBtn">
+                Fire only
+            </button>
+
+            <button id="showAllBtn">
+                Show all
+            </button>
+
+            <button id="randomBtn">
+                Random encounter
+            </button>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- MAIN -->
+
+    <main>
+
+        <!-- STARTER -->
+
+        <section>
+
+            <h2>Starter Pokémon</h2>
+
+            <div id="pokemonContainer"></div>
+
+        </section>
+
+
+
+        <!-- COLLECTION -->
+
+        <section>
+
+            <h2>My Collection</h2>
+
+            <div class="search-box">
+
+                <input
+                    id="collectionSearch"
+                    placeholder="Search collection"
+                >
+
+            </div>
+
+            <div id="collectionContainer"></div>
+
+        </section>
+
+
+
+        <!-- BATTLE -->
+
+        <section>
+
+            <h2>Battle Arena</h2>
+
+            <div class="battle-container">
+
+                <select id="pokemon1"></select>
+
+                <select id="pokemon2"></select>
+
+                <button id="battleBtn">
+                    Start Battle
+                </button>
+
+            </div>
+
+            <div id="battleResult"></div>
+
+        </section>
+
+      <h2>Trainer Dashboard</h2>
+
+        <div id="statsContainer"></div>
+
+
+
+        <h2>Achievements</h2>
+
+        <div id="achievementContainer"></div>   
+
+    </main>
+
+
+
+    
+   
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        Pokemon Trainer App 2026
+
+    </footer>
+
+
+
+    <!-- MODAL -->
+
+    <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+            <span id="closeModal">&times;</span>
+
+            <div id="modalBody"></div>
+
+        </div>
+
+    </div>
+
+    <script src="Poke.js"></script>
+
+</body>
+
+</html>
