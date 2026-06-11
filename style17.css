@@ -1,0 +1,100 @@
+
+.puslapis {
+  display: flex;
+  flex-direction: column; 
+  height: 1000px;
+}
+
+.headeris {
+  display: flex;
+  height: 50px;
+  background: green;
+  color: white;
+justify-content:center;
+  align-items: center;
+  
+}
+
+
+.vidus {
+  display: flex;
+   flex: 1; 
+  flex-direction: row; 
+ 
+}
+
+.sidebar {
+  width: 200px;
+  background: yellow;
+  padding: 20px;
+}
+
+.content {
+  flex: 1; 
+  padding: 20px;
+  background: #f4f4f4;
+      
+}
+
+.kortele {
+  display: flex;
+ 
+  height: 100px;
+  background: white;
+  border: 10px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.father {
+  display: flex;           
+  justify-content: center; 
+  align-items: center;      
+         
+  background-color: #f0f0f0;
+}
+
+.child {
+  padding: 20px 40px;
+  background-color: #ff9900;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+
+.apacia {
+  
+ display: flex;
+  flex-direction: row; 
+  down: 100px;
+  
+}
+
+
+.footer {
+ 
+  
+ background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+   display: flex;
+  
+  background: green;
+  color: white;
+justify-content:center;
+  align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+

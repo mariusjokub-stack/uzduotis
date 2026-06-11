@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Filmų Paieška</title>
+
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>🎬 Filmų / Anime Paieška</h1>
+
+    </header>
+
+
+
+    <!-- NAV -->
+
+    <nav>
+
+        <div class="top-buttons">
+
+            <button id="themeBtn">
+                Dark / Light
+            </button>
+
+            <button id="topRatedBtn">
+                Top Rated
+            </button>
+
+        </div>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Įveskite filmo pavadinimą"
+            >
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+        <div class="sort-box">
+
+            <select id="sortSelect">
+
+                <option value="default">
+                    Rūšiuoti
+                </option>
+
+                <option value="name">
+                    Pagal pavadinimą
+                </option>
+
+                <option value="rating">
+                    Pagal reitingą
+                </option>
+
+                <option value="year">
+                    Pagal metus
+                </option>
+
+            </select>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- MAIN -->
+
+    <main>
+
+        <section>
+
+            <div id="loading" class="hidden">
+
+                <div class="spinner"></div>
+
+                <p>Loading...</p>
+
+            </div>
+
+            <div id="message"></div>
+
+            <h2>Rezultatai</h2>
+
+            <div id="moviesContainer"></div>
+
+        </section>
+
+
+
+        <section>
+
+            <h2>Mėgstami Filmai</h2>
+
+            <div id="favoritesContainer"></div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ASIDE -->
+
+    <aside>
+
+        <div class="dashboard">
+
+            <div class="dashboard-card">
+
+                <h3>Favorites</h3>
+
+                <p id="favoritesCount">0</p>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <h3>Top Movie</h3>
+
+                <p id="topMovie">-</p>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <h3>Average Rating</h3>
+
+                <p id="averageRating">0</p>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Movie Search App 2026
+        </p>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+
+

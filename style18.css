@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif
+  color: #333;
+}
+
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.header {
+  background: #1a1a2e;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+
+.wrapper {
+  display: flex;
+  flex: 1; 
+}
+
+.sidebar {
+  width: 200px;
+  background: #16213e;
+  color: #adb0bb;
+  padding: 20px;
+}
+
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f4f4f9;
+}
+
+.proportions-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.prop-item {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.p-50 { flex: 2; background: #e94560; } 
+.p-25 { flex: 1; background: #0f3460; }
+
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  /* flex-basis nustato pradinį plotį, flex-grow leidžia užpildyti erdvę */
+  flex: 1 1 calc(25% - 20px); 
+  min-width: 200px;
+  background: greenyellow;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* --- 5. RESPONSIVE DIZAINAS --- */
+
+@media (max-width: 850px) {
+  .wrapper {
+    flex-direction: column; /* Sidebar perkeliamas virš Content */
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+
+  .proportions-row {
+    flex-direction: column; /* Proporcijos telefone tampa 100% pločio */
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex: 1 1 100%; /* Kortelės užima visą ekraną */
+  }
+}

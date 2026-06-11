@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eshop</title>
+    <link rel="stylesheet" href="style21.css">
+
+    <title>Mano Krepšelis</title>
+
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #333; }
+        
+        /* Krepšelio lentelė */
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th { text-align: left; color: #666; border-bottom: 1px solid #ddd; padding: 10px; }
+        td { padding: 15px 10px; border-bottom: 1px solid #eee; }
+        
+        /* Formos elementai */
+        .payment-section { background: #fafafa; padding: 20px; border-radius: 8px; margin-top: 20px; }
+        input[type="text"], input[type="email"], select { 
+            width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;
+        }
+        
+        .total { font-size: 1.5rem; font-weight: bold; text-align: right; margin: 20px 0; color: #2c3e50; }
+        
+        .pay-btn { 
+            background-color: #27ae60; color: white; border: none; padding: 15px 30px; 
+            font-size: 1rem; border-radius: 5px; cursor: pointer; width: 100%; transition: 0.3s;
+        }
+        .pay-btn:hover { background-color: #219150; }
+        .back-link { display: block; margin-top: 20px; text-align: center; color: #3498db; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🛒 Jūsų krepšelis</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Prekė</th>
+                <th>Kiekis</th>
+                <th>Kaina</th>
+            </tr>
+        </thead>
+        <tbody id="cart-items">
+            <tr>
+                <td>Pavyzdinė prekė</td>
+                <td>1</td>
+                <td>10.00 €</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="total">
+        Viso mokėti: <span id="total-price">10.00 €</span>
+    </div>
+
+    <div class="payment-section">
+        <h3>Apmokėjimas ir pristatymas</h3>
+        <form id="payment-form">
+            <label>Vardas, Pavardė</label>
+            <input type="text" placeholder="Vardenis Pavardenis" required>
+            
+            <label>El. paštas</label>
+            <input type="email" placeholder="pastas@pavyzdys.lt" required>
+            
+            <label>Mokėjimo būdas</label>
+            <select required>
+                <option value="card">Kreditinė kortelė</option>
+                <option value="bank">Internetinė bankininkystė</option>
+                <option value="paypal">PayPal</option>
+            </select>
+            
+            <button type="submit" class="pay-btn">Patvirtinti ir apmokėti</button>
+        </form>
+    </div>
+
+    <a href="index21.html" class="back-link">← Grįžti į parduotuvę</a>
+</div>
+
+
+
+</body>
+</html>

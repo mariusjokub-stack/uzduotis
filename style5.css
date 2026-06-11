@@ -1,0 +1,29 @@
+.sachmatai {
+display: inline-flex;
+}
+.sachmatai {
+    width: 500; font-size: 0;
+}
+
+
+
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1){
+    background-color: aqua;
+}
+
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1),
+.sachmatai > div:nth-child(10+1){
+    background-color:blue;
+}
+
+.sachmatai div{
+width: 75px; height: 75px; margin: 5px;padding:10px;text-align: center;
+
+}

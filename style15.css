@@ -1,0 +1,38 @@
+
+
+.container {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  height: 200px;
+}
+
+.box {
+display: flex;
+flex: 1;
+color: white;
+ 
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100px;
+}
+
+.red { background-color:green; }
+.blue { background-color: goldenrod; }
+.green { background-color: black; }
+
+
+@media (min-width: 500px) {
+  .container {                     
+    flex-direction: row; 
+  }
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}

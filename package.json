@@ -1,0 +1,27 @@
+{
+  "name": "coding-mokymai",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000u\u0000z\u0000d\u0000u\u0000o\u0000t\u0000i\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000p\u0000e\u0000r\u0000d\u0000a\u0000r\u0000y\u0000t\u0000a\u0000\r\u0000 \u0000",
+  "homepage": "https://github.com/mariusjokub-stack/uzduotis#readme",
+  "bugs": {
+    "url": "https://github.com/mariusjokub-stack/uzduotis/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusjokub-stack/uzduotis.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "eslint-config-xo": "^0.51.0",
+    "globals": "^17.5.0",
+    "typescript": "^6.0.3"
+  }
+}

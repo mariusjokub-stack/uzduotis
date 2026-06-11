@@ -1,0 +1,32 @@
+
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  background-color: yellowgreen;
+}
+
+.box {
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.box-50 {
+  background-color: red;
+  flex: 2; 
+}
+
+.box-25 {
+  background-color: greenyellow;
+  flex: 1;
+}
+
+.box-25-1 {
+  background-color: green;
+  flex: 1;
+}
+

@@ -1,0 +1,23 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column; 
+      
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  botton; 0;
+  
+  
+  margin-top: auto; 
+}

@@ -1,0 +1,46 @@
+
+
+
+
+.conteiner {
+  
+  max-width: 500px;
+  margin: auto;
+}
+
+    
+.header {
+    border: 2px solid black;
+background-color:lightpink;
+color:black;
+padding:20px;
+font-size: 20px;
+text-align:center;
+}
+
+.sidebar {
+    border: 2px solid black;
+background-color:lightblue;
+color: black;
+padding:20px;
+font-size: 20px;
+text-align:center;
+}
+
+.content{
+    border: 2px solid black;
+background-color:burlywood;
+color:black;
+padding:20px;
+font-size: 20px;
+text-align:center;
+}
+
+.footer{
+    border: 2px solid black;
+background-color:grey;
+color:black;
+padding:20px;
+font-size: 20px;
+text-align:center;
+}

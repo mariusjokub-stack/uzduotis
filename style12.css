@@ -1,0 +1,14 @@
+.father {
+  display: flex;           
+  justify-content: center; 
+  align-items: center;      
+  height: 1000px;           
+  background-color: #f0f0f0;
+}
+
+.child {
+  padding: 20px 40px;
+  background-color: #ff9900;
+  font-weight: bold;
+  border-radius: 8px;
+}

@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+  display: grid;
+  /* Reikalavimas: 3x3 grid (3 stulpeliai po vienodą dalį) */
+  grid-template-columns: repeat(3, 1fr);
+  /* Reikalavimas: 10px tarpai */
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.item {
+  height: 150px;
+  display: flex;
+  /* Reikalavimas: Centruotas tekstas bloko viduje */
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Reikalavimas: Skirtingos spalvos (naudojame pseudo-klases) */
+.item:nth-child(1) { background-color: #e74c3c; }
+.item:nth-child(2) { background-color: #3498db; }
+.item:nth-child(3) { background-color: #2ecc71; }
+.item:nth-child(4) { background-color: #f1c40f; }
+.item:nth-child(5) { background-color: #9b59b6; }
+.item:nth-child(6) { background-color: #e67e22; }
+.item:nth-child(7) { background-color: #1abc9c; }
+.item:nth-child(8) { background-color: #34495e; }
+.item:nth-child(9) { background-color: #d35400; }
